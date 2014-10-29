@@ -16,8 +16,6 @@ int main(int argc, char* argv[]) {
 		eps = atof(argv[3]);
 		s = atof(argv[4]);
 	}
-	printf("f(a) = %.4f, f(b) = %.4f\n", f(a), f(b));
-
 
 	return 0;
 }
