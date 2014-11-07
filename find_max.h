@@ -13,8 +13,3 @@ public:
 void max_func(double(*func)(double), double a, double b, double eps, double s, double* max_x, double* max_val);
 Interval get_task(std::queue<Interval> task_queue, omp_lock_t *queue_lock);
 void insert_task(Interval task, std::queue<Interval> task_queue, omp_lock_t *queue_lock);
-=======
-	Interval* split(Interval*); // return a ptr to 2 intervals
-	bool exist_max(double(*func)(double), double eps, double s, double current_max_val);
-};
->>>>>>> 825e44889462cf7c9bef53bdd0eeee0e1fabe9d3
