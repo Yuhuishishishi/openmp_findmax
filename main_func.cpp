@@ -8,7 +8,7 @@ double f(double); // function to evaluate
 int main(int argc, char* argv[]) {
 	printf("------------------Program start-----------------\n");
 	// parse the arguments
-	double a = 1, b = 1000, eps = 10e-12, s = 12;
+	double a = 1, b = 100, eps = 10e-6, s = 12;
 	if (argc > 1) {
 		a = atof(argv[1]);
 		b = atof(argv[2]);
